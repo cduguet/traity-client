@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40DE8F3C1BE7D5C800B7EB2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE8F3B1BE7D5C800B7EB2C /* AppDelegate.swift */; };
+		40DE8F3E1BE7D5C800B7EB2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE8F3D1BE7D5C800B7EB2C /* ViewController.swift */; };
+		40DE8F411BE7D5C800B7EB2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DE8F3F1BE7D5C800B7EB2C /* Main.storyboard */; };
+		40DE8F431BE7D5C800B7EB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DE8F421BE7D5C800B7EB2C /* Assets.xcassets */; };
+		40DE8F461BE7D5C800B7EB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DE8F441BE7D5C800B7EB2C /* LaunchScreen.storyboard */; };
+		40DE8F511BE7D5C800B7EB2C /* Traity_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE8F501BE7D5C800B7EB2C /* Traity_ClientTests.swift */; };
+		40DE8F5C1BE7D5C800B7EB2C /* Traity_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE8F5B1BE7D5C800B7EB2C /* Traity_ClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40DE8F4D1BE7D5C800B7EB2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40DE8F301BE7D5C800B7EB2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40DE8F371BE7D5C800B7EB2C;
+			remoteInfo = "Traity Client";
+		};
+		40DE8F581BE7D5C800B7EB2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40DE8F301BE7D5C800B7EB2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40DE8F371BE7D5C800B7EB2C;
+			remoteInfo = "Traity Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40DE8F381BE7D5C800B7EB2C /* Traity Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traity Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DE8F3B1BE7D5C800B7EB2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40DE8F3D1BE7D5C800B7EB2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40DE8F401BE7D5C800B7EB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40DE8F421BE7D5C800B7EB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40DE8F451BE7D5C800B7EB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40DE8F471BE7D5C800B7EB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DE8F4C1BE7D5C800B7EB2C /* Traity ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Traity ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DE8F501BE7D5C800B7EB2C /* Traity_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traity_ClientTests.swift; sourceTree = "<group>"; };
+		40DE8F521BE7D5C800B7EB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DE8F571BE7D5C800B7EB2C /* Traity ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Traity ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DE8F5B1BE7D5C800B7EB2C /* Traity_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traity_ClientUITests.swift; sourceTree = "<group>"; };
+		40DE8F5D1BE7D5C800B7EB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40DE8F351BE7D5C800B7EB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DE8F491BE7D5C800B7EB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DE8F541BE7D5C800B7EB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40DE8F2F1BE7D5C800B7EB2C = {
+			isa = PBXGroup;
+			children = (
+				40DE8F3A1BE7D5C800B7EB2C /* Traity Client */,
+				40DE8F4F1BE7D5C800B7EB2C /* Traity ClientTests */,
+				40DE8F5A1BE7D5C800B7EB2C /* Traity ClientUITests */,
+				40DE8F391BE7D5C800B7EB2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40DE8F391BE7D5C800B7EB2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40DE8F381BE7D5C800B7EB2C /* Traity Client.app */,
+				40DE8F4C1BE7D5C800B7EB2C /* Traity ClientTests.xctest */,
+				40DE8F571BE7D5C800B7EB2C /* Traity ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40DE8F3A1BE7D5C800B7EB2C /* Traity Client */ = {
+			isa = PBXGroup;
+			children = (
+				40DE8F3B1BE7D5C800B7EB2C /* AppDelegate.swift */,
+				40DE8F3D1BE7D5C800B7EB2C /* ViewController.swift */,
+				40DE8F3F1BE7D5C800B7EB2C /* Main.storyboard */,
+				40DE8F421BE7D5C800B7EB2C /* Assets.xcassets */,
+				40DE8F441BE7D5C800B7EB2C /* LaunchScreen.storyboard */,
+				40DE8F471BE7D5C800B7EB2C /* Info.plist */,
+			);
+			path = "Traity Client";
+			sourceTree = "<group>";
+		};
+		40DE8F4F1BE7D5C800B7EB2C /* Traity ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				40DE8F501BE7D5C800B7EB2C /* Traity_ClientTests.swift */,
+				40DE8F521BE7D5C800B7EB2C /* Info.plist */,
+			);
+			path = "Traity ClientTests";
+			sourceTree = "<group>";
+		};
+		40DE8F5A1BE7D5C800B7EB2C /* Traity ClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40DE8F5B1BE7D5C800B7EB2C /* Traity_ClientUITests.swift */,
+				40DE8F5D1BE7D5C800B7EB2C /* Info.plist */,
+			);
+			path = "Traity ClientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40DE8F371BE7D5C800B7EB2C /* Traity Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DE8F601BE7D5C800B7EB2C /* Build configuration list for PBXNativeTarget "Traity Client" */;
+			buildPhases = (
+				40DE8F341BE7D5C800B7EB2C /* Sources */,
+				40DE8F351BE7D5C800B7EB2C /* Frameworks */,
+				40DE8F361BE7D5C800B7EB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Traity Client";
+			productName = "Traity Client";
+			productReference = 40DE8F381BE7D5C800B7EB2C /* Traity Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40DE8F4B1BE7D5C800B7EB2C /* Traity ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DE8F631BE7D5C800B7EB2C /* Build configuration list for PBXNativeTarget "Traity ClientTests" */;
+			buildPhases = (
+				40DE8F481BE7D5C800B7EB2C /* Sources */,
+				40DE8F491BE7D5C800B7EB2C /* Frameworks */,
+				40DE8F4A1BE7D5C800B7EB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40DE8F4E1BE7D5C800B7EB2C /* PBXTargetDependency */,
+			);
+			name = "Traity ClientTests";
+			productName = "Traity ClientTests";
+			productReference = 40DE8F4C1BE7D5C800B7EB2C /* Traity ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40DE8F561BE7D5C800B7EB2C /* Traity ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DE8F661BE7D5C800B7EB2C /* Build configuration list for PBXNativeTarget "Traity ClientUITests" */;
+			buildPhases = (
+				40DE8F531BE7D5C800B7EB2C /* Sources */,
+				40DE8F541BE7D5C800B7EB2C /* Frameworks */,
+				40DE8F551BE7D5C800B7EB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40DE8F591BE7D5C800B7EB2C /* PBXTargetDependency */,
+			);
+			name = "Traity ClientUITests";
+			productName = "Traity ClientUITests";
+			productReference = 40DE8F571BE7D5C800B7EB2C /* Traity ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40DE8F301BE7D5C800B7EB2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cristian Duguet";
+				TargetAttributes = {
+					40DE8F371BE7D5C800B7EB2C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					40DE8F4B1BE7D5C800B7EB2C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 40DE8F371BE7D5C800B7EB2C;
+					};
+					40DE8F561BE7D5C800B7EB2C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 40DE8F371BE7D5C800B7EB2C;
+					};
+				};
+			};
+			buildConfigurationList = 40DE8F331BE7D5C800B7EB2C /* Build configuration list for PBXProject "Traity Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40DE8F2F1BE7D5C800B7EB2C;
+			productRefGroup = 40DE8F391BE7D5C800B7EB2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40DE8F371BE7D5C800B7EB2C /* Traity Client */,
+				40DE8F4B1BE7D5C800B7EB2C /* Traity ClientTests */,
+				40DE8F561BE7D5C800B7EB2C /* Traity ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40DE8F361BE7D5C800B7EB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DE8F461BE7D5C800B7EB2C /* LaunchScreen.storyboard in Resources */,
+				40DE8F431BE7D5C800B7EB2C /* Assets.xcassets in Resources */,
+				40DE8F411BE7D5C800B7EB2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DE8F4A1BE7D5C800B7EB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DE8F551BE7D5C800B7EB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40DE8F341BE7D5C800B7EB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DE8F3E1BE7D5C800B7EB2C /* ViewController.swift in Sources */,
+				40DE8F3C1BE7D5C800B7EB2C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DE8F481BE7D5C800B7EB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DE8F511BE7D5C800B7EB2C /* Traity_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DE8F531BE7D5C800B7EB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DE8F5C1BE7D5C800B7EB2C /* Traity_ClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40DE8F4E1BE7D5C800B7EB2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40DE8F371BE7D5C800B7EB2C /* Traity Client */;
+			targetProxy = 40DE8F4D1BE7D5C800B7EB2C /* PBXContainerItemProxy */;
+		};
+		40DE8F591BE7D5C800B7EB2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40DE8F371BE7D5C800B7EB2C /* Traity Client */;
+			targetProxy = 40DE8F581BE7D5C800B7EB2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40DE8F3F1BE7D5C800B7EB2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DE8F401BE7D5C800B7EB2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40DE8F441BE7D5C800B7EB2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DE8F451BE7D5C800B7EB2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40DE8F5E1BE7D5C800B7EB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40DE8F5F1BE7D5C800B7EB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40DE8F611BE7D5C800B7EB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Traity Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwApp.Traity-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40DE8F621BE7D5C800B7EB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Traity Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwApp.Traity-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40DE8F641BE7D5C800B7EB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Traity ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwApp.Traity-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Traity Client.app/Traity Client";
+			};
+			name = Debug;
+		};
+		40DE8F651BE7D5C800B7EB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Traity ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwApp.Traity-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Traity Client.app/Traity Client";
+			};
+			name = Release;
+		};
+		40DE8F671BE7D5C800B7EB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Traity ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwApp.Traity-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Traity Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		40DE8F681BE7D5C800B7EB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Traity ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwApp.Traity-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Traity Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40DE8F331BE7D5C800B7EB2C /* Build configuration list for PBXProject "Traity Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DE8F5E1BE7D5C800B7EB2C /* Debug */,
+				40DE8F5F1BE7D5C800B7EB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DE8F601BE7D5C800B7EB2C /* Build configuration list for PBXNativeTarget "Traity Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DE8F611BE7D5C800B7EB2C /* Debug */,
+				40DE8F621BE7D5C800B7EB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40DE8F631BE7D5C800B7EB2C /* Build configuration list for PBXNativeTarget "Traity ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DE8F641BE7D5C800B7EB2C /* Debug */,
+				40DE8F651BE7D5C800B7EB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40DE8F661BE7D5C800B7EB2C /* Build configuration list for PBXNativeTarget "Traity ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DE8F671BE7D5C800B7EB2C /* Debug */,
+				40DE8F681BE7D5C800B7EB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40DE8F301BE7D5C800B7EB2C /* Project object */;
+}
