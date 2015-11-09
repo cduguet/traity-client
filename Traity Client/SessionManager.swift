@@ -23,7 +23,7 @@ class SessionManager : AFHTTPSessionManager {
     convenience init() {
         let path = NSBundle.mainBundle().pathForResource("Settings", ofType: "plist")
         //let host = NSDictionary(contentsOfFile: path!)?.objectForKey("API Host") as! String
-        let host = "api.traity.com"
+        let host = "https://api.traity.com"
         
         self.init(baseURL:NSURL(string: host))
     }
