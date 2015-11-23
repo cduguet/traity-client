@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4072C03D1BFE428E006CE1BC /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4072C03C1BFE428E006CE1BC /* Images.swift */; };
 		408D0E3E1BEA71FE0005887A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D0E3D1BEA71FE0005887A /* SessionManager.swift */; };
 		40DE8F3C1BE7D5C800B7EB2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE8F3B1BE7D5C800B7EB2C /* AppDelegate.swift */; };
 		40DE8F3E1BE7D5C800B7EB2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE8F3D1BE7D5C800B7EB2C /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		40DE8F461BE7D5C800B7EB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DE8F441BE7D5C800B7EB2C /* LaunchScreen.storyboard */; };
 		40DE8F511BE7D5C800B7EB2C /* Traity_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE8F501BE7D5C800B7EB2C /* Traity_ClientTests.swift */; };
 		40DE8F5C1BE7D5C800B7EB2C /* Traity_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE8F5B1BE7D5C800B7EB2C /* Traity_ClientUITests.swift */; };
+		40F405231BF9830300E6F19B /* ConnectedAccountsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F405221BF9830300E6F19B /* ConnectedAccountsCell.swift */; };
 		9DC111088EE9875935B63772 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343C27E05A34B0FDD64F6780 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		343C27E05A34B0FDD64F6780 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400B853F1BF79F5700A30F83 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		4072C03C1BFE428E006CE1BC /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		408D0E3D1BEA71FE0005887A /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		408D0E3F1BEBD0430005887A /* Traity Client-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Traity Client-Bridging-Header.h"; sourceTree = "<group>"; };
 		40DE8F381BE7D5C800B7EB2C /* Traity Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traity Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +56,7 @@
 		40DE8F571BE7D5C800B7EB2C /* Traity ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Traity ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DE8F5B1BE7D5C800B7EB2C /* Traity_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traity_ClientUITests.swift; sourceTree = "<group>"; };
 		40DE8F5D1BE7D5C800B7EB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F405221BF9830300E6F19B /* ConnectedAccountsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectedAccountsCell.swift; sourceTree = "<group>"; };
 		BC4A9D055B6C8840179BEABA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CBDCFD47454399AE48246B61 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,8 +114,11 @@
 			children = (
 				40DE8F3B1BE7D5C800B7EB2C /* AppDelegate.swift */,
 				40DE8F3D1BE7D5C800B7EB2C /* ViewController.swift */,
+				4072C03C1BFE428E006CE1BC /* Images.swift */,
 				408D0E3D1BEA71FE0005887A /* SessionManager.swift */,
 				40DE8F3F1BE7D5C800B7EB2C /* Main.storyboard */,
+				40F405221BF9830300E6F19B /* ConnectedAccountsCell.swift */,
+				400B853F1BF79F5700A30F83 /* MyPlayground.playground */,
 				40DE8F421BE7D5C800B7EB2C /* Assets.xcassets */,
 				40DE8F441BE7D5C800B7EB2C /* LaunchScreen.storyboard */,
 				40DE8F471BE7D5C800B7EB2C /* Info.plist */,
@@ -338,7 +346,9 @@
 			files = (
 				40DE8F3E1BE7D5C800B7EB2C /* ViewController.swift in Sources */,
 				408D0E3E1BEA71FE0005887A /* SessionManager.swift in Sources */,
+				4072C03D1BFE428E006CE1BC /* Images.swift in Sources */,
 				40DE8F3C1BE7D5C800B7EB2C /* AppDelegate.swift in Sources */,
+				40F405231BF9830300E6F19B /* ConnectedAccountsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +443,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +482,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};

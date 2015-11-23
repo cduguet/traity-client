@@ -9,7 +9,7 @@
 
 import UIKit
 import AFNetworking
-import SwiftHTTP
+//import SwiftHTTP
 
 
 class SessionManager : AFHTTPSessionManager {
@@ -21,7 +21,7 @@ class SessionManager : AFHTTPSessionManager {
     }
 
     convenience init() {
-        let path = NSBundle.mainBundle().pathForResource("Settings", ofType: "plist")
+        //let path = NSBundle.mainBundle().pathForResource("Settings", ofType: "plist")
         //let host = NSDictionary(contentsOfFile: path!)?.objectForKey("API Host") as! String
         let host = "https://api.traity.com"
         
